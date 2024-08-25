@@ -24,6 +24,30 @@ void main() {
       print('Unknown fruit.');
   }
 
+
+  //--------- Another Example Checked Grades ----------------
+  void main() {
+  var grade = "A";
+  switch (grade) {
+    case "A":
+      print("Exellent A Pass!");
+      break;
+    case "B":
+      print("Good B Pass!");
+      break;
+    case "C":
+      print("Good C Pass! ");
+      break;
+    case "D":
+      print("Poor D Pass!");
+      break;
+    default:
+      print("Invalid choice!");
+      break;
+  }
+
+  
+
   // -------------------------------------------------------------
   num value = 42.0; // Can be either int or double
 
